@@ -13,7 +13,9 @@
     "/lib"
   ],
   "scripts": {
-    "test": "node ./bin/medium-to-own-blog.js"
+    "test": "node ./bin/medium-to-own-blog.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Mathieu Dutour <mathieu@dutour.me>",
   "license": "MIT",
@@ -40,6 +42,8 @@
     "request": "^2.88.0",
     "slugify": "^1.3.4",
     "turndown": "^5.0.3",
-    "xml-js": "^1.6.11"
-  }
+    "xml-js": "^1.6.11",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
