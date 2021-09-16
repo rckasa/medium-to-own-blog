@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "fs-extra": "^8.0.1",
-    "inquirer": "^6.3.1",
+    "inquirer": "^7.0.5",
     "jsdom": "^15.1.0",
     "jszip": "^3.2.1",
     "ora": "^3.4.0",
